@@ -1,5 +1,4 @@
-# Week 12: Portfolio — Finance Tracker & Weekly Projects
-
+# Dolla Grace Ambwaya — Portfolio
 ## Author
 
 - **Name:** Dolla Grace Ambwaya
