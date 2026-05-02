@@ -27,20 +27,20 @@ h1 {
 }
 
 h2 {
-font-family: 'Courier Prime', monospace;
-font-size: var(--font-3xl);
-font-weight: 600;
+    font-family: 'Courier Prime', monospace;
+    font-size: var(--font-3xl);
+    font-weight: 600;
     color: var(--color-primary);
     margin-top: 20px;
     margin-bottom: 10px;
 }
-h3 {
-  font-size: var(--font-2xl);
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  color: var(--color-primary);
-}
 
+h3 {
+    font-size: var(--font-2xl);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--color-primary);
+}
 
 .profile-photo {
     width: 200px;
@@ -48,29 +48,35 @@ h3 {
     border-radius: 50%;
 }
 
+.finance-tracker-screenshot {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
 small {
     font-size: var(--font-sm);
     color: var(--color-text);
 }
+
 :root {
-    --font-xs: 0.75rem;    /* 12px */
-    --font-sm: 0.875rem;   /* 14px */
-    --font-base: 1rem;     /* 16px */
-    --font-lg: 1.125rem;   /* 18px */
-    --font-xl: 1.25rem;    /* 20px */
-    --font-2xl: 1.5rem;    /* 24px */
-    --font-3xl: 1.875rem;  /* 30px */
-    --font-4xl: 2.25rem;   /* 36px */
+    --font-xs: 0.75rem;
+    --font-sm: 0.875rem;
+    --font-base: 1rem;
+    --font-lg: 1.125rem;
+    --font-xl: 1.25rem;
+    --font-2xl: 1.5rem;
+    --font-3xl: 1.875rem;
+    --font-4xl: 2.25rem;
 }
 
 :root {
-    --color-primary:#241023ff;
+    --color-primary: #241023ff;
     --color-secondary: #31493cff;
     --color-background: #8a716aff;
     --color-text: #570000ff;
     --color-muted: #c2b8b2ff;
-    
-    /* Variations */
     --color-primary-light: #87f1ffff;
     --color-primary-dark: #403233ff;
 }
@@ -81,7 +87,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-primary-dark);
+    color: var(--color-primary-dark);
     text-decoration: underline;
 }
 
@@ -100,7 +106,7 @@ button:hover {
 }
 
 .footer {
-  background-color: var(--color-primary-dark);
+    background-color: var(--color-primary-dark);
     color: var(--color-muted);
     padding: 32px;
 }
@@ -118,12 +124,12 @@ button:hover {
 
 copyright {
     text-align: center;
-} 
+}
 
 .navbar {
     display: flex;
-    justify-content: space-between; /* logo on the left, links on the right */
-    align-items: center; /* Vertically center the items */
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     background-color: var(--color-secondary);
 }
@@ -131,10 +137,120 @@ copyright {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px; /* Add space between links */
+    gap: 20px;
 }
 
 .nav-links a {
     color: #fff;
     text-decoration: none;
+}
+
+/* ── Nav ── */
+nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 16px;
+    background-color: var(--color-secondary);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: var(--font-base);
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* ── Hero ── */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: var(--color-primary-dark);
+    color: var(--color-muted);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    background-color: transparent;
+    color: var(--color-muted);
+}
+
+.hero p {
+    font-size: var(--font-lg);
+    color: var(--color-muted);
+}
+
+/* ── Main & Sections ── */
+main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+main section ul {
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+main section ul li {
+    margin-bottom: 6px;
+}
+
+/* ── Contact Form ── */
+form p {
+    margin-bottom: 14px;
+}
+
+form label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: var(--color-primary);
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: var(--font-base);
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    background-color: var(--color-muted);
+    color: var(--color-primary);
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: var(--color-secondary);
+}
+
+/* ── Footer ── */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: var(--color-primary-dark);
+    color: var(--color-muted);
+    border-radius: 10px;
+    font-size: var(--font-sm);
 }
