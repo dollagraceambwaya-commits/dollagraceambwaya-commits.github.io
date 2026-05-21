@@ -1,80 +1,36 @@
-# Dolla Grace Ambwaya — Portfolio
-## Author
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-- **Name:** Dolla Grace Ambwaya
-- **GitHub:** [@dollagraceambwaya-commits](https://github.com/dollagraceambwaya-commits)
-- **Date:** May 3, 2026
+## Getting Started
 
-## Project Description
+First, run the development server:
 
-This portfolio showcases my programming journey at IYF Weekend Academy.  
-It includes:
-
-- A **Home page** with navigation and introduction.
-- An **About page** with my bio, profile photo, and interests.
-- A **Contact page** with email, phone, and LinkedIn details.
-- A **Projects page** featuring my group project (Finance Tracker — Income Module) and weekly repos (Weeks 1–12) covering foundations, CSS, JavaScript, React, backend, and deployment.
-
-## Technologies Used
-
-- HTML5 & CSS3
-- JavaScript (ES6: async/await, DOM events)
-- React 18 (components, props, state, hooks)
-- Vite (development server & build tool)
-- Node.js & Express (backend basics)
-- Git & GitHub (version control)
-
-## Features
-
-- **Portfolio site** with Home, About, Contact, and Projects pages
-- **Finance Tracker project** with IncomeForm & IncomeList components
-- **Weekly repos** showing progression from Week 1 (Foundations) to Week 12 (Deployment)
-- Responsive design and clean navigation
-- GitHub integration for visibility and collaboration
-
-## How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/dollagraceambwaya-commits/dollagraceambwaya-commits
-   Open index.html in your browser
-   OR
-   ```
-2. Navigate to project folders and run:
-
-```
-  bash
-  npm install
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-3. npm run dev
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Lessons Learned
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- Building a structured portfolio with multiple pages
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- Documenting projects with consistent README templates
+## Learn More
 
-- Organizing weekly repos for clarity and progression
+To learn more about Next.js, take a look at the following resources:
 
-## Challenges Faced
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Designing consistent navigation across all pages
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- Keeping styling cohesive between Home, About, Contact, and Projects
+## Deploy on Vercel
 
-- Linking weekly repos and Finance Tracker clearly in one portfolio
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- Ensuring professional polish and readability in README documentation
-
-## Screenshots (Finance Tracker)
-
-![Finance Tracker Income Module UI](images/finance-tracker.png)
-
-## Live Demo (if deployed)
-
-[View Live Demo](https://dollagraceambwaya-commits.github.io/)
-
-```
-
-```
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
